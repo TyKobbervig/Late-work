@@ -1,20 +1,20 @@
 # Student Grade Tracker
 
 students = {
-    "Alice": 88,
-    "Bob": 92,
-    "Charlie": 79
+"Alice": 88,
+"Bob": 92,
+"Charlie": 79
 }
 
 print("Student Grades:")
 
 for name, grade in students.item():
-    print(name, grade)
+print(name, grade)
 
 total = 0
 
 for grade in students.values():
-    total =+ grade
+total =+ grade
 
 average = total / len(student)
 
@@ -28,8 +28,8 @@ total =+ grade
 problem: assigns a positive value isntead of adding to the running total.
 fix;
 total += grade
- error 3
- len(student)
- problem: the dictionary is named students, not student
- Fix:
- len(students)
+error 3
+len(student)
+problem: the dictionary is named students, not student
+Fix:
+len(students)
